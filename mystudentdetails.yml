@@ -1,8 +1,20 @@
 ---
 - studentdetails: 
-   - name: shravan
+   - name: ammulu
      phno: 8989898998
      course: devops
+     address:
+       street: 1
+       pin: 5000072
+   - name: ravi
+     phno: 8985656
+     course: devops
+     address:
+       street: 1
+       pin: 5000072
+   - name: rama
+     phno: 8985656
+     course: devops4
      address:
        street: 1
        pin: 5000072
