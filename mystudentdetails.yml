@@ -2,7 +2,6 @@
 - studentdetails: 
    - name: shravan
      phno: 8989898998
-     course: devops
+     course: java
      address:
        street: 1
-       pin: 5000072
