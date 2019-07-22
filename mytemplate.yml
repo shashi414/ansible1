@@ -1,4 +1,4 @@
---
+---
 - hosts: ubuntuos
   become: yes
   tasks:
