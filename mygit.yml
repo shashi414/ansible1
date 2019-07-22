@@ -2,12 +2,15 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install git, wget ,tree on node
+  - name: install git
     apt:
-     name: "{{ item }}"
+     name: git
      state: present
-    with_items:
-     - git
-     - tree
-     - wget  
- 
+  - name: install tree
+    apt:
+     name: tree
+     state: present
+  - name: install wget
+    apt:
+     name: wget
+     state: present
