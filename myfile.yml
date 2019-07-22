@@ -1,0 +1,5 @@
+---
+- name: i want to create file on all nodes
+  file:
+      path: /home/shashi/shashi.txt
+      state: touch
